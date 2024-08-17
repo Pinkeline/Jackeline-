@@ -1,0 +1,17 @@
+Algoritmo "ENQUANTO1A5MULT"
+
+Var
+i, mult, num: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+mult<- 1
+REPITA
+ ESCREVAL  ("Digite um número do tipo inteiro: ")
+LEIA (num)
+mult<- mult*num
+i<-i+1
+ATE i>=5
+ESCREVAL ("Resultado da multiplicação: ", mult)
+
+Fimalgoritmo
