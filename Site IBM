@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa dos sonhos</title>
+</head>
+<body>
+    <header>
+    <h1 style="color: blueviolet;">IBM Realizando seu sonho, transformando momentos em memórias</h1>
+    </header>
+    <h2>Conheça o inicio da realização dos seu sonho</h2>
+    <section>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam viverra velit sed nibh fermentum, non euismod nibh elementum. Phasellus blandit tristique nulla, sed venenatis est congue ut. Quisque sit amet metus vitae leo porttitor vestibulum et a mauris. Nulla id dignissim eros. Etiam rutrum porttitor eros et varius. Nunc aliquet tincidunt mollis. Nullam in malesuada tortor. Integer vehicula sollicitudin rhoncus. Morbi malesuada feugiat nulla aliquam gravida.
+
+        Ut eleifend dolor mi, quis laoreet dui lacinia in. Maecenas in lacus faucibus, elementum nulla et, dignissim ligula. Vivamus egestas, elit ut fringilla dignissim, felis quam ornare sapien, at convallis tellus dui et purus. Ut nec justo in quam ultrices gravida vitae a felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin quis lorem vitae est aliquet consectetur. Pellentesque ut erat at mauris rutrum consectetur. Praesent sodales luctus lectus, non eleifend sem lacinia elementum. Pellentesque aliquet ante nec eros commodo, sit amet tempus tellus blandit.
+        
+        Pellentesque dapibus ac lectus ut dictum. Sed vitae dignissim lectus. Integer sit amet posuere mi. Maecenas dignissim augue lorem, et blandit lectus varius molestie. Nam imperdiet blandit lacus in lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas efficitur rutrum pellentesque.
+        
+        Vivamus pellentesque quis nisi vitae accumsan. Praesent commodo at tellus vel tempor. Aliquam nec vestibulum sapien, eget ultricies ex. Duis magna nibh, rhoncus a nisl vel, pulvinar cursus sapien. Pellentesque dapibus magna est, et rhoncus velit gravida at. Praesent ut placerat eros, et luctus sapien. Vestibulum vehicula, massa a tempus bibendum, velit purus rutrum turpis, ut eleifend diam velit et massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed tincidunt nisi ac ante viverra ultricies nec et est. Nam volutpat justo sed tortor fringilla, ac pulvinar massa elementum. Donec porta, augue ac luctus convallis, enim enim mattis mi, quis tincidunt lectus lacus fermentum quam.
+        
+        Nunc eget est risus. Vestibulum scelerisque tellus ut tortor viverra tincidunt. Suspendisse porttitor ut ex id faucibus. In tincidunt tellus non risus tempus, a luctus dui luctus. Proin ac tristique mauris, non blandit diam. Proin eu luctus enim. Pellentesque et diam eu dolor cursus maximus id eget mi. Pellentesque vitae nibh luctus, semper turpis a, finibus odio. Nulla iaculis diam sapien. Suspendisse sagittis justo risus, eu aliquam dui rhoncus nec. Morbi scelerisque lectus sapien, eu pharetra mi sodales in.
+        
+        Praesent vitae sapien consectetur, lacinia erat eu, ornare mauris. Nulla tincidunt sapien ligula, at ultrices justo euismod ac. Curabitur facilisis ex turpis, at facilisis nibh semper eu. Nunc sed eros blandit, scelerisque massa ut, luctus turpis. Proin consequat porttitor metus non consequat. Donec posuere purus at porttitor gravida. Sed bibendum, lectus eu mollis ornare, elit elit rutrum orci, id hendrerit augue dui sed libero. In id orci nunc.
+    <br><br>
+    <a href="https://www.lipsum.com/feed/html">link</a>
+    <hr>  
+</p>
+</section>
+<section>
+  <h2>Orçamento</h2>
+  <form method= "GET" action="">
+
+<fieldset>
+    <legend>Dados Pessoais</legend>
+    <label>Nome</label><br>
+    <input type="texto" name="nome"><br><br>
+
+    <label>Email</label><br>
+    <input type="email" required name="Email"><br><br>
+ 
+    <label>Data do Casamento</label><br>
+    <input type="date" name="dataCasamento"><br><br>
+ 
+    <label>Quantidade de pessoas</label><br>
+    <input type="number" name="qtdPessoas"><br><br>
+    <fieldset>
+        <legend>Quais serviços deseja contratar?</legend>
+        
+        <label>
+          <input type="radio" name="servico" value="casamentoCivil"> Casamento Civil
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="servico" value="casamentoReligioso"> Casamento Religioso
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="servico" value="casamentoAr"> Casamento ao Ar Livre
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="servico" value="casamentoTematico"> Casamento Temático
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="servico" value="casamentoTradicional"> Casamento Tradicional
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="servico" value="casamentoComunitario"> Casamento Comunitário
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="servico" value="casamentoSimbolico"> Casamento Simbólico
+        </label>
+        <br><br>
+      </fieldset>
+      <fieldset>
+        <legend>Qual a base do orçamento?</legend>
+        <select name="baseOrcamento">
+        <option value="5000a10000">5.000 á 10.000</option>
+        <option value="15000a30000">15.000 á 30.000</option>
+        <option value="45000a60000">45.000 á 60.000</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+    <legend>Quais são suas expectativas para o dia do casamento?</legend><br>
+        <textarea rows="5" name="Comentário"></textarea><br><br>
+        <button>Salvar</button>
+    </fieldset>
+  </form>
+
+ 
+</section>
+<footer>
+    <p>Desenvolvido por Jackeline </p>
+</footer> 
+</body>
+</html>
